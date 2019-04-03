@@ -1,11 +1,19 @@
 ## vt Assignment
 
 
-
-##Technologies and tools used:
+###Technologies and tools used:
 Spring, SpringBoot, Hibernate, SQL, Java 8, H2 embedded DB, Junit, Maven, Eclipse
 
-##Confguration (based on eclipse IDE):
+
+
+
+
+
+
+
+
+
+###Confguration (based on eclipse IDE):
 1. Download sourcecode from git
 2. Import as maven project in eclipse (or any other IDE, command line is also fine)
 3. Update project dependcies through maven
@@ -17,15 +25,24 @@ Spring, SpringBoot, Hibernate, SQL, Java 8, H2 embedded DB, Junit, Maven, Eclips
 Note: Application should be running when trying APIs through curl or browser.
 
 
-#H2 embedded DB URL to check loaded data: 
+
+
+
+
+
+
+
+
+###H2 embedded DB URL to check loaded data: 
 http://localhost:8080/console
 Username: test
 Password (no password set):
 
 
-##API data
 
-#API- A
+
+###API data
+###API- A
 http://localhost:8080/port/2/time/2015-02-02 05:08:16.457
 curl http://localhost:8080/port/2/time/2015-02-02 05:08:16.457
 
@@ -74,7 +91,14 @@ Sample Output-
 
 
 
-#API- B
+
+
+
+
+
+
+
+###API- B
 http://localhost:8080/port/2/start/2015-02-02%2005:08:16.457/end/2015-09-14%2023:06:21.625
 curl http://localhost:8080/port/2/start/2015-02-02%2005:08:16.457/end/2015-09-14%2023:06:21.625
 
@@ -356,7 +380,14 @@ Sample Output-
 
 
 
-#API- C
+
+
+
+
+
+
+
+###API- C
 http://localhost:8080/vessel/9622203/port/2/start/2015-02-02 05:08:16.457/end/2015-09-14 23:06:21.625
 curl http://localhost:8080/vessel/9622203/port/2/start/2015-02-02 05:08:16.457/end/2015-09-14 23:06:21.625
 
@@ -375,7 +406,14 @@ Sample Output-
 
 
 
-API- D
+
+
+
+
+
+
+
+###API- D
 http://localhost:8080/port/2/year/2015/month/05
 curl http://localhost:8080/port/2/year/2015/month/05
 
@@ -392,7 +430,14 @@ Sample Output-
 
 
 
-#Test case:
+
+
+
+
+
+
+
+###Test case:
 VtApplicationTests.java
 	Unit testcase: test_HTMLPage, test_GetPortMonthlyTrafficEndpoint
 	Integration test: test_DataLoad_GetPortMonthlyTrafficEndpoint
